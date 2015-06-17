@@ -3,7 +3,7 @@ Repositorio para la aplicacion de Noders
 
 ## Lenguaje
 
-- Swift 1.0
+- Swift 1.2
 
 ## Dependencias Actuales
 
