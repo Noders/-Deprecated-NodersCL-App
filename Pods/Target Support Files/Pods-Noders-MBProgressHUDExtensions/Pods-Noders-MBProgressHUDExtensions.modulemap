@@ -1,0 +1,6 @@
+framework module MBProgressHUDExtensions {
+  umbrella header "Pods-Noders-MBProgressHUDExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

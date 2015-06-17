@@ -1,0 +1,59 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - ISO8601DateFormatterValueTransformer (0.6.0):
+    - RKValueTransformers (~> 1.1.0)
+  - MBProgressHUD (0.9.1)
+  - MBProgressHUDExtensions (0.0.1):
+    - MBProgressHUD (~> 0.4)
+  - RestKit (0.24.1):
+    - RestKit/Core (= 0.24.1)
+  - RestKit/Core (0.24.1):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.24.1):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.24.1):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.24.1):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.24.1):
+    - TransitionKit (~> 2.1.0)
+  - RKValueTransformers (1.1.2)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - SOCKit (1.1)
+  - SpinKit (1.2.0)
+  - SwiftyJSON (2.2.0)
+  - TransitionKit (2.1.1)
+  - XCDYouTubeKit (2.1.3)
+
+DEPENDENCIES:
+  - MBProgressHUDExtensions (~> 0.0)
+  - RestKit (~> 0.24)
+  - SDWebImage (= 3.7.1)
+  - SpinKit (~> 1.1)
+  - SwiftyJSON (~> 2.2)
+  - XCDYouTubeKit (~> 2.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  ISO8601DateFormatterValueTransformer: 3ac3a721381697cab4e792d8049ce2f2e9ad3036
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MBProgressHUDExtensions: f39a37dcc0bf6c7622470c5f5874116ef86ca22e
+  RestKit: 1987b5efef289c6b27bd980714d6ca48d3871b78
+  RKValueTransformers: 66ac5e4f077fdbe3496e792d89eeff4c3eb67701
+  SDWebImage: ed3095af2ff88b436426037444979b917f6c5575
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SpinKit: 65906a8b534a4e14cbfd3f8b0b6c329131faef4a
+  SwiftyJSON: 0b3e6c07af17ff745e77e8e9984097b55c956e5c
+  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+  XCDYouTubeKit: ca3120218413fdd141567ca98b5418df309b1ced
+
+COCOAPODS: 0.37.1

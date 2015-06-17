@@ -1,0 +1,6 @@
+framework module SpinKit {
+  umbrella header "Pods-Noders-SpinKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

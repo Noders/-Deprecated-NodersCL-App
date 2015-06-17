@@ -1,0 +1,6 @@
+framework module RKValueTransformers {
+  umbrella header "Pods-Noders-RKValueTransformers-umbrella.h"
+
+  export *
+  module * { export * }
+}

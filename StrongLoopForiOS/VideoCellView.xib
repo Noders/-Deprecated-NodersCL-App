@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="229" id="5nz-1h-IX7" customClass="VideoTableViewCell" customModule="Noders" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="1" width="320" height="229"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5nz-1h-IX7" id="Kxd-Ha-Oz4">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ymP-As-u9g">
+                        <rect key="frame" x="0.0" y="9" width="320" height="219"/>
+                    </imageView>
+                    <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fUJ-7F-ccn">
+                        <rect key="frame" x="0.0" y="148" width="320" height="80"/>
+                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="rje-C0-kli">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre de Prueba" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pch-lb-DCk">
+                                    <rect key="frame" x="8" y="8" width="304" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x23-wp-wh6">
+                                    <rect key="frame" x="8" y="51" width="304" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="pch-lb-DCk" firstAttribute="top" secondItem="rje-C0-kli" secondAttribute="top" constant="8" id="EHA-oW-wo1"/>
+                                <constraint firstAttribute="bottom" secondItem="x23-wp-wh6" secondAttribute="bottom" constant="8" id="I7l-6n-j7J"/>
+                                <constraint firstItem="pch-lb-DCk" firstAttribute="leading" secondItem="rje-C0-kli" secondAttribute="leading" constant="8" id="OnA-qY-Fbl"/>
+                                <constraint firstAttribute="trailing" secondItem="pch-lb-DCk" secondAttribute="trailing" constant="8" id="UB7-it-9aY"/>
+                                <constraint firstAttribute="trailing" secondItem="x23-wp-wh6" secondAttribute="trailing" constant="8" id="vjl-hz-AGP"/>
+                                <constraint firstItem="x23-wp-wh6" firstAttribute="leading" secondItem="rje-C0-kli" secondAttribute="leading" constant="8" id="xnU-Hg-2k7"/>
+                            </constraints>
+                        </view>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="zz2-Fw-yNh"/>
+                        </constraints>
+                        <blurEffect style="dark"/>
+                    </visualEffectView>
+                </subviews>
+                <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.1450980392" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="fUJ-7F-ccn" firstAttribute="leading" secondItem="Kxd-Ha-Oz4" secondAttribute="leadingMargin" constant="-8" id="0pD-A8-Spb"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ymP-As-u9g" secondAttribute="trailing" constant="-8" id="2O0-lp-lAT"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ymP-As-u9g" secondAttribute="bottom" constant="-8" id="6eb-Fv-tWA"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fUJ-7F-ccn" secondAttribute="trailing" constant="-8" id="Ehj-BH-Tgf"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fUJ-7F-ccn" secondAttribute="bottom" constant="-8" id="bL9-Eg-z40"/>
+                    <constraint firstItem="ymP-As-u9g" firstAttribute="leading" secondItem="Kxd-Ha-Oz4" secondAttribute="leadingMargin" constant="-8" id="bYQ-aq-bGY"/>
+                    <constraint firstItem="ymP-As-u9g" firstAttribute="top" secondItem="Kxd-Ha-Oz4" secondAttribute="topMargin" constant="1" id="e0r-Sh-0yJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellView" destination="Kxd-Ha-Oz4" id="cwE-pQ-ybT"/>
+                <outlet property="duracionVideo" destination="x23-wp-wh6" id="uNI-L6-Yfq"/>
+                <outlet property="nombreVideo" destination="pch-lb-DCk" id="raZ-yr-ypD"/>
+                <outlet property="thumbnailVideo" destination="ymP-As-u9g" id="NVz-Jv-FUL"/>
+            </connections>
+            <point key="canvasLocation" x="304" y="134.5"/>
+        </tableViewCell>
+    </objects>
+</document>
