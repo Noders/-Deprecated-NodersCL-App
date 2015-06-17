@@ -25,5 +25,5 @@ Las dependencias actuales se listan a continuación:
 
 ## Contacto
 
-Slack: #josev55
-Correo: jose.vildosola.55@gmail.com
+- Slack: #josev55
+- Correo: jose.vildosola.55@gmail.com
